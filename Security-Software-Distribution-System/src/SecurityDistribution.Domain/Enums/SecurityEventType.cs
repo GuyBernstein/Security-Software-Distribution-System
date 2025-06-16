@@ -1,6 +1,8 @@
 namespace Security_Software_Distribution_System.SecurityDistribution.Domain.Enums;
 
-public class SecurityEventType
+public enum SecurityEventType
 {
-    
+    ExceededActivationLimit,
+    ExpiredLicenseUse,
+    SuspiciousActivation
 }

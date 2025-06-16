@@ -1,6 +1,4 @@
-using Security_Software_Distribution_System.Program;
-
-namespace Security_Software_Distribution_System.Model;
+namespace Security_Software_Distribution_System.SecurityDistribution.Domain.Entities;
 
 
 /*
@@ -10,6 +8,7 @@ namespace Security_Software_Distribution_System.Model;
    - Licenses should be associated with customers
    - The system must validate license authenticity and status
  */
+
 /// Represents a software license with activation and expiration management
 public class License(
     string licenseKey,

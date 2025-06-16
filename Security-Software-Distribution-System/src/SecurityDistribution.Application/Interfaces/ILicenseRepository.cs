@@ -1,6 +1,7 @@
-using Security_Software_Distribution_System.Model;
 
-namespace Security_Software_Distribution_System.Repository;
+using Security_Software_Distribution_System.SecurityDistribution.Domain.Entities;
+
+namespace Security_Software_Distribution_System.SecurityDistribution.Application.Interfaces;
 
 public interface ILicenseRepository
 {

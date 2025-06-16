@@ -1,6 +1,5 @@
-using Security_Software_Distribution_System.Repository;
 
-namespace Security_Software_Distribution_System.Management;
+namespace Security_Software_Distribution_System.SecurityDistribution.Application.Services;
 
 public class SecurityMonitoringService //: ISecurityManagement
 {

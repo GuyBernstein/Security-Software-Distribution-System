@@ -1,4 +1,4 @@
-namespace Security_Software_Distribution_System.Program;
+namespace Security_Software_Distribution_System.SecurityDistribution.Domain.Entities;
 
 /*
  * ### Deployment Tracking
@@ -9,7 +9,7 @@ namespace Security_Software_Distribution_System.Program;
  */
 public class Activation(
     string activationKey,
-    string lisenceKey,
+    string licenceKey,
     string machineName,
     string machineId,
     DateTime activationDate,
@@ -18,7 +18,7 @@ public class Activation(
     bool isActive)
 {
     public string ActivationKey { get; private set; } = activationKey; // (GUID)
-    public string LisenceKey { get; private set; } = lisenceKey;
+    public string LicenceKey { get; private set; } = licenceKey;
     public string MachineName { get; private set; } = machineName;
     public string MachineId { get; private set; } = machineId; // (simulated hardware ID)
     public DateTime ActivationDate { get; private set; } = activationDate;
