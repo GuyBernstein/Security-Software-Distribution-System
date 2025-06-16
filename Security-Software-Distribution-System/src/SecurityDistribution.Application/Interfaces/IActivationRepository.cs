@@ -2,7 +2,7 @@ using Security_Software_Distribution_System.Program;
 
 namespace Security_Software_Distribution_System.Repository;
 
-public interface IActivationManagement
+public interface IActivationRepository
 {
     Activation ActivateLicense(string licenseKey, string machineName, string machineId, string ipAddress);
     bool DeactivateLicense(string licenseKey, string machineId);

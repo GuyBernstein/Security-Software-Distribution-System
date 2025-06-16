@@ -8,7 +8,7 @@ namespace Security_Software_Distribution_System.Program;
         - Unusual deployment patterns
    - Provide a way to query security events
  */
-public class Security(DateTime timestamp, string licenseKey, string details, string ipAddress)
+public class SecurityEvent(DateTime timestamp, string licenseKey, string details, string ipAddress)
 {
     public enum EventType
     {
